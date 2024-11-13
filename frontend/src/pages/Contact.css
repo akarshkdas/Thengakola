@@ -1,0 +1,83 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;   
+    justify-content:center;
+    align-items:center;
+    margin: 15px 0;
+}
+
+.contact-bottom{
+    background-color: darkcyan;
+    color: aliceblue;
+    border-radius: 50px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.contact-bottom:hover{
+    transform: scale(1.025);
+}
+
+.contact-top{
+    width: 50%;
+    border: 5px solid darkcyan;
+    border-radius: 50px;
+    background-color: aliceblue;
+    color: darkcyan;
+    text-align: center;
+    font-size: large;
+    padding: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.contact-top:hover{
+    transform: scale(1.025);
+}
+
+.form-group{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.contact-submit{
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: aliceblue;
+    color: darkcyan;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.contact-input{
+    border-radius: 10px;
+    font-size: large;
+    width: 300px;
+    padding: 3px 10px;
+    font-family: 'Trebuchet MS';
+    margin: 10px;
+    border:2px solid darkslategrey
+}
+
+.contact-text{
+    padding: 3px 10px;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS';
+    font-size: large;
+    width: 300px;
+    margin: 10px;
+}
+
+.contact-alert{
+    text-align: center;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: darkcyan;
+    color: aliceblue;
+}

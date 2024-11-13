@@ -1,0 +1,64 @@
+/* Navbar container */
+nav {
+    background-color: darkcyan;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-btn {
+    background-color: aliceblue;
+    color: darkcyan;
+    margin-right: 20px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS';
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.menu-btn:hover{
+    background-color: darkslategrey;
+    color: aliceblue;
+}
+
+.dropdown-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-content {
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    background-color: aliceblue;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 2.5px;
+    padding: 10px;
+    transition: visibility 0s, opacity 0.3s ease;
+}
+
+.links-hidden {
+    display: block;
+    color: darkcyan;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size:medium;
+    font-weight: bold;
+}
+    
+.links-hidden:hover{
+    transform: scale(1.2);
+}
+    
+.dropdown-menu:hover .menu-content {
+    visibility: visible;
+    opacity: 1;
+}

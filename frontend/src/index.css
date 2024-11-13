@@ -1,0 +1,11 @@
+#root{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+body {
+  margin: 0;
+  border: 0;
+  font-family: 'Trebuchet MS';
+  background-color: aliceblue;
+}
